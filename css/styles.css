@@ -1,234 +1,125 @@
 
-body{
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    background: #e5e5e5;
-    font-family: 'Montserrat', sans-serif;
-}
 
-
-
-
-.wrapper{
+.wrapper {
     display: flex;
-    flex-direction: row-reverse;
-    background: #ffff;
-    width: 1200px;
-    margin: auto;
-}
-.mein-content{
-    padding-left: 88px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 40px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.about-me{
-    margin-bottom: 40px;
-}
-.my-name{
-   font-style:normal;
-   font-weight:700;
-   font-size:45px;
-   line-height:55px;
-   margin-bottom: 8px;
-
-}
-.my-summary{
-   font-style:normal;
-   font-weight:400;
-   font-size:14px;
-   line-height: 24px;
-   color: #595959;
+.main-content, .sidebar {
+    padding: 20px;
 }
 
-.sidebar{
-    background: #DFEEFF;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.sidebar-content{
-
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 80px;
-}
-.sidebar-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color:#161d2a;
-    margin-bottom: 8px;
-}
-.cntact-conteinero{
-    margin-bottom: 40px;
+.main-content {
+    flex: 2;
 }
 
-.contacts-item{
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-color: #161d2a;
-}
-.contacts-link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color:#2979FF
-}
-.skills-conteiner{ 
-    margin-bottom: 40px;
+.sidebar {
+    flex: 1;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
 }
 
-.skills-item{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
-    list-style: disc;
+.my-photo {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
+.sidebar-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #007bff;
 }
-.skills-list{
-    padding-left: 25px;
-}
-.contact-link{
-    font-style: normal;
-     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #2979FF
 
+.contacts-details, .skills-list, .soft-list {
+    list-style: none;
 }
-.soft-conteiner{
-    margin-bottom: 40px;
+
+.contacts-item, .skills-item, .soft-item {
+    margin-bottom: 10px;
 }
-.soft-item{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #161d2a;
-list-style: disc;
+
+.contacts-link, .projekts-link {
+    text-decoration: none;
+    color: #007bff;
 }
-.soft-list{
-    padding-left: 25px;
+
+.projekts-link:hover, .contacts-link:hover {
+    text-decoration: underline;
 }
-.my-profession{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-bottom: 8px;
+
+.mein-content-title, .company-position, .company-education {
+    margin-bottom: 10px;
+    color: #007bff;
 }
-.mein-content-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 8px;
+
+.my-name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
-.projekts-container{
-    margin-bottom: 44px;
+
+.my-profession {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #555;
 }
-.projekts-item{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    list-style: decimal;
+
+.my-summary {
+    margin-bottom: 20px;
 }
-.prodjekts-link{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-text-decoration-line: underline;
-color: #2979FF;
+
+.projekts-container, .experiens-conteyner, .education-container {
+    margin-bottom: 30px;
 }
-.projekts-tech{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
+
+.company-container {
+    margin-bottom: 20px;
 }
-.projekts-list{
-    padding-left: 19px;
+
+.company-position {
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
-.experiens-conteyner {
-    margin-bottom: 40px;
+
+.company-period, .company-duties-list {
+    margin-bottom: 10px;
 }
-.company-position{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 12px;
-}
-.company-position-accent{
-    color: #6096ff;
-}
-.company-period{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 8px;
-}
-.company-duties-item{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    list-style: disc;
-}
-.company-duties-list{
+
+.company-duties-list {
     padding-left: 20px;
 }
-.company-container{
-    margin-bottom: 8px;
+
+.company-duties-item {
+    margin-bottom: 5px;
 }
-.education-container{
-    margin-bottom: 40px;
+
+/* Sidebar */
+.sidebar-content {
+    margin-top: 20px;
+    text-align: left;
 }
-.company-education{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 12px;
+
+.sidebar-content h3 {
+    margin-bottom: 15px;
 }
-.company-education-accent{
-    color: #6096ff;
+
+.contacts-item a, .skills-item, .soft-item {
+    color: #333;
 }
-.education-period{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 8px;
+
+/* Specific styles for tech and soft skills */
+.skills-list, .soft-list {
+    padding-left: 0;
+    list-style: none;
 }
-.compani-educatio{
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-color: #000000;
-margin-bottom: 12px;
+
+.skills-item::before, .soft-item::before {
+    content: '•';
+    color: #007bff;
+    margin-right: 10px;
 }
