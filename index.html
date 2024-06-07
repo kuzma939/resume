@@ -7,165 +7,119 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
-    
-    <title>My resume</title>
+    <title>My Resume</title>
 </head>
-
 <body>
-  
-    <div class="wrapper"> 
-        
-        <!--Main content -->
-    <div class="mein-content">
-        <div><!--About me -->
-           
-            <div class="about-me">
-                <h1 class="my-name">Anja Kuzma</h1>
-                <h2 class="my-profession">Frontend Online</h2>
-                <p class="my-summary">
-                    I am Front End Online. I focus on
-                    HTML5, CSS3, JS, React. Development,
-                    practice and work for the result are important for
-                    me. I am skillful in analyzing problems and
-                    thinking of solutions to accurately troubleshoot
-                    and solve technical problems.
-                 
-                </p>
+    <div class="wrapper">
+        <!-- Main content -->
+        <div class="main-content">
+            <div class="main-section">
+                <!-- About me -->
+                <div class="about-me">
+                    <h1 class="name">Anja Kuzma</h1>
+                    <h2 class="profession">Frontend Developer</h2>
+                    <p class="summary">
+                        I am a Front End Developer specializing in HTML5, CSS3, JS, and React. Development, practice, and achieving results are important to me. I am adept at analyzing problems and finding solutions to accurately troubleshoot and solve technical issues.
+                    </p>
+                </div>
+                <!-- Projects -->
+                <div class="projects">
+                    <h3 class="section-title">Projects</h3>
+                    <ol class="project-list">
+                        <li class="project-item">
+                            <a class="project-link" href="#">Project 1</a>
+                            <span class="project-tech">[HTML5, CSS3] Role: Developer, Individual project</span>
+                        </li>
+                        <li class="project-item">
+                            <a class="project-link" href="https://ihordid.github.io/return-js/">https://ihordid.github.io/return-js/</a>
+                            <span class="project-tech">[JavaScript]</span>
+                        </li>
+                        <li class="project-item">
+                            <a class="project-link" href="#">Project 3</a>
+                            <span class="project-tech">[React.js, Node.js]</span>
+                        </li>
+                    </ol>
+                </div>
+                <!-- Work experience -->
+                <div class="experience">
+                    <h3 class="section-title">Work Experience</h3>
+                    <div class="job">
+                        <h4 class="job-title">Manager <span class="job-company">Farmasi</span></h4>
+                        <p class="job-period">March 2022 - September 2023 | Ukraine</p>
+                        <ul class="job-duties">
+                            <li class="duty">Managed daily store operations, ensuring high standards of customer service and product presentation.</li>
+                            <li class="duty">Supervised and trained staff, fostering a positive and productive team environment.</li>
+                            <li class="duty">Handled inventory management, including ordering, stocking, and conducting regular inventory checks.</li>
+                            <li class="duty">Developed and implemented sales strategies to achieve monthly and quarterly sales targets.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="education">
+                    <h3 class="section-title">Education</h3>
+                    <div class="education-item">
+                        <h4 class="education-school">IT School GoIT</h4>
+                        <h5 class="education-degree">Fullstack Online</h5>
+                        <p class="education-period">2023 - 2024 | Ukraine</p>
+                    </div>
+                    <div class="education-item">
+                        <h4 class="education-school">Carpathian University named after Augustin Voloshin</h4>
+                        <h5 class="education-degree">Economist</h5>
+                        <p class="education-period">September 2010 - June 2014 | Ukraine</p>
+                    </div>
+                </div>
             </div>
-        <!-- Projekts-->
-        <div class="projekts-container">
-            <h3 class="mein-content-title">Projects</h3>
-            <ol class="projekts-list">
-                <li class="projekts-item">
-                    <a class="prodjekts-link" href=""></a>
-                      <span class="projekts-tech"> ................[ HTML5,CSS3 ]
-                    </span>
-                </li>
-                <li class="projekts-item">
-                    <a class="prodjekts-link" href="https://ihordid.github.io/return-js/">https://ihordid.github.io/return-js/</a>
-                    <span class="projekts-tech"> .......[JavaScript ]
-                    </span>
-                </li>
-        
-                <li class="projekts-item">
-                    <a class="prodjekts-link" href=""></a>
-                    <span class="projekts-tech"> .................[React.js,Node.js]
-                        </span>
-                </li>
-        
-            </ol>
         </div>
-        
-        
-        <!---Work experiens-->
-        <div class="experiens-conteyner">
-            <h3 class="mein-content-title">Work Experience</h3>
-        
-            <!--Company 1-->
-            <div class="company-container">
-                <h4 class="company-position"> Manager
-                    <span class="company-position-accent">
-                       Farmasi
-                    </span>
-                </h4>
-                <p class="company-period">March 2022 up September 2023 | Ukraine</p>
-                <ul class="company-duties-list">
-                    <li class="company-duties-item">Managed daily store operations, ensuring high standards of customer service and product presentation.</li>
-                    <li class="company-duties-item">Supervised and trained staff, fostering a positive and productive team environment.</li>
-                    <li class="company-duties-item">Handled inventory management, including ordering, stocking, and conducting regular inventory checks.</li>
-                    <li class="company-duties-item">Developed and implemented sales strategies to achieve monthly and quarterly sales targets.</li>
-                </ul>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img class="photo" src="" alt="My photo" width="220">
+            <div class="sidebar-content">
+                <!-- Contact -->
+                <div class="contact">
+                    <h3 class="sidebar-title">Contacts</h3>
+                    <ul class="contact-list">
+                        <li class="contact-item">📞 <a class="contact-link" href="tel:+380962851664">+380 962851664</a></li>
+                        <li class="contact-item">📧 <a class="contact-link" href="mailto:kuzma.9999@icloud.com">kuzma.9999@icloud.com</a></li>
+                        <li class="contact-item">🌐 <a class="contact-link" href="https://www.linkedin.com/in/anja-kuzma-258257305">LinkedIn</a></li>
+                        <li class="contact-item">🐱 <a class="contact-link" href="https://github.com/kuzma939">GitHub</a></li>
+                        <li class="contact-item">✈️ <a class="contact-link" href="https://t.me/anja_939">Telegram</a></li>
+                    </ul>
+                </div>
+                <!-- Tech Skills -->
+                <div class="skills">
+                    <h3 class="sidebar-title">Tech Skills</h3>
+                    <ul class="skill-list">
+                        <li class="skill">HTML, CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">React.js</li>
+                        <li class="skill">Node.js</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="soft-skills">
+                    <h3 class="sidebar-title">Soft Skills</h3>
+                    <ul class="soft-skill-list">
+                        <li class="soft-skill">Attention to detail</li>
+                        <li class="soft-skill">Teamwork</li>
+                        <li class="soft-skill">Creativity</li>
+                        <li class="soft-skill">Good communication</li>
+                        <li class="soft-skill">Punctuality</li>
+                    </ul>
+                </div>
+                <!-- Languages -->
+                <div class="languages">
+                    <h3 class="sidebar-title">Languages</h3>
+                    <ul class="language-list">
+                        <li class="language">English - Beginner</li>
+                        <li class="language">Russian - Intermediate</li>
+                        <li class="language">Ukrainian - Advanced</li>
+                        <li class="language">Czech - Intermediate</li>
+                    </ul>
+                </div>
             </div>
-            <!--Company 2-->
-            <div class="company-container">
-                <h4 class="company-position">Front-End Online
-                    <span class="company-position-accent">
-                       Freelance
-                    </span>
-                </h4>
-                <p class="company-period">December 2023 - up to now | Ukraine</p>
-                <ul class="company-duties-list">
-                    <li class="company-duties-item">Розробка сайтів і мобільних застосунків</li>
-                    <li class="company-duties-item">Виправлення помилок і покращення існуючого функціоналу</li>
-                    <li class="company-duties-item">Підвищення продуктивності SPA і статичних сайтів</li>
-                    <li class="company-duties-item">Рефакторинг існуючих шаблонів і програм</li>
-                </ul>
-            </div>
-       
-        </div>
-        <!--Education-->
-        <div class="education-container">
-            <div>
-                <h3 class="mein-content-title">Education</h3>
-                <h4 class="company-education">
-                    <span class="company-education-accent">
-                        IT School GoIT
-                    </span>
-                </h4>
-                <h5 class="compani-educatio">
-                    Fullstack Online
-                </h5> 
-                <p class="education-period"> 2023 - 2024 | Ukraine</p>
-                
-                <h4 class="company-education">
-                    <span class="company-education-accent">
-                         GoIT
-                    </span>
-                </h4>
-                  <h5 class="company-education">Ftack Onlineulls</h5> 
-                
-                <p class="education-period">January 2019 - October 2019 | Ukraine</p>
-            </div>
-        </div></div>
+        </aside>
     </div>
-    <!--Sidebar-->
-    <aside class="sidebar">
-        <img  class="my-photo"   src="./img/HSZD1779.JPG" alt="My photo" width="370">
-        <div class="sidebar-content">
-        <!--Contact-->
-        <div class="cntact-conteinero">
-
-            <h3 class="sidebar-title">Contacts</h3>
-            <ul class="contacts-details">
-                <li class="contacts-item">📞 <a class="contacts-link" href="Tel:+380962851664">+380 962851664</a></li>
-                <li class="contacts-item">📧 <a class="contacts-link" href="mailto:kuzma.9999@icloud.com">kuzma.9999@icloud.com</a></li>
-            <li class="contacts-item">🌐 <a class="contacts-link" href="www.linkedin.com/in/anja-kuzma-258257305">LinkedIn</a></li>
-            <li class="contacts-item">🐱 <a class="contacts-link" href="https://github.com/kuzma939">GitHub</a></li>
-        <li class="contacts-item">✈️ <a class="contacts-link" href="@anja_939">Telegram</a></li>
-        </ul>
-        </div>
-    
-    
-        <!--Tech Skills-->
-        <div class="skills-conteiner">
-            <h3 class="sidebar-title">Tech Skills</h3>
-            <ul class="skills-list">
-                <li class="skills-item">HTML, CSS</li>
-                <li class="skills-item">JavaScript</li>
-                <li class="skills-item">React.js</li>
-                <li class="skills-item">Node.js</li>
-               
-            </ul>
-    
-        </div>
-    
-        <!--Soft Skills-->
-        <div class="soft-conteiner">
-
-            <h3 class="sidebar-title">Soft Skil</h3>
-            <ul class="soft-list">
-                <li class="soft-item">Attention to detail</li>
-                <li class="soft-item">Teamwork</li>
-                <li class="soft-item">Creativity</li>
-                <li class="soft-item">Good communication</li>
-            </ul>
-        </div>
-    </div>
-    </aside></div>
-
 </body>
-
- </html>
+</html>

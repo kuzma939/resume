@@ -1,229 +1,197 @@
-body{
+body {
     margin: 0 auto;
     background: #e5e5e5;
     font-family: 'Montserrat', sans-serif;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-direction: row-reverse;
-    background: #ffff;
+    background: #fff;
     width: 1200px;
     margin: auto;
 }
-.mein-content{
-display: flex;
-justify-content: center;
-flex-direction: column;
-    padding-left: 88px;
-   
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 20px;
 }
-/*About me*/
-.about-me{
+
+.main-section {
+    margin-left: 20px;
+}
+
+.about-me,
+.projects,
+.experience,
+.education {
     margin-bottom: 40px;
 }
-.my-name{
-   font-style:normal;
-   font-weight:700;
-   font-size:45px;
-   line-height:55px;
-   margin-bottom: 8px;
 
+.name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 8px;
 }
-.my-profession{
-    font-style: normal;
+
+.profession {
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
-    color: #000000;
+    color: #000;
     margin-bottom: 18px;
 }
-.my-summary{
-   font-style:normal;
-   font-weight:400;
-   font-size:14px;
-   line-height: 24px;
-   color: #595959;
-}
-/*Projekts*/
-.projekts-container{
-    margin-bottom: 44px;
-}
-.projekts-item{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    list-style: decimal;
-}
-.prodjekts-link{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-text-decoration-line: underline;
-color: #2979FF;
-}
-.projekts-tech{
-    font-style: normal;
+
+.summary {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: #595959;
 }
-.projekts-list{
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.project-list {
     padding-left: 19px;
 }
-/*Work experiens*/
-.experiens-conteyner {
-    margin-bottom: 40px;
+
+.project-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    list-style: decimal;
 }
-/*Company 1*/
-.company-position{
-    font-style: normal;
+
+.project-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #2979FF;
+}
+
+.project-tech {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.job {
+    margin-bottom: 8px;
+}
+
+.job-title {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #000;
     margin-bottom: 12px;
 }
-.company-position-accent{
+
+.job-company {
     color: #6096ff;
 }
-.company-period{
-    font-style: normal;
+
+.job-period {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
     margin-bottom: 8px;
 }
-.company-duties-item{
-    font-style: normal;
+
+.job-duties {
+    padding-left: 20px;
+}
+
+.duty {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
     list-style: disc;
 }
-.company-duties-list{
-    padding-left: 20px;
-}
-.company-container{
-    margin-bottom: 8px;
-}
-/*Education*/
-.education-container{
+
+.education-item {
     margin-bottom: 40px;
 }
-.company-education{
-    font-style: normal;
+
+.education-school {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
-    margin-bottom: 12px;
+    color: #000;
 }
-.company-education-accent{
-    color: #6096ff;
+
+.education-degree {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin-top: -12px;
+    margin-bottom: 0;
 }
-.company-education{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 12px;
-    }
-.education-period{
-    font-style: normal;
+
+.education-period {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
     margin-bottom: 8px;
 }
-/*Sidebar*/
-.sidebar{
-    background: #DFEEFF;
-}
-.sidebar-content{
 
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 80px;
+.sidebar {
+    padding: 20px;
+    background: #F3F4F6;
+    width: 280px;
+    text-align: left;
 }
-.sidebar-title{
-    font-style: normal;
+
+.photo {
+    margin-bottom: 20px;
+}
+
+.sidebar-content {
+    padding: 10px;
+}
+
+.sidebar-title {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color:#161d2a;
-    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 12px;
 }
-.cntact-conteinero{
-    margin-bottom: 40px;
+
+.contact-list, .skill-list, .soft-skill-list, .language-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
 }
-.contacts-item{
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-color: #161d2a;
-}
-.contacts-link{
-    font-style: normal;
+
+.contact-item, .skill, .soft-skill, .language {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    text-decoration-line: underline;
-    color:#2979FF
-}
-.skills-conteiner{ 
-    margin-bottom: 40px;
+    color: #000;
+    margin-bottom: 8px;
 }
 
-.skills-item{
-    font-style: normal;
+.contact-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #161d2a;
-    list-style: disc;
-
-}
-.skills-list{
-    padding-left: 25px;
-}
-.contact-link{
-    font-style: normal;
-     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #2979FF
-
-}
-.soft-conteiner{
-    margin-bottom: 40px;
-}
-.soft-item{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #161d2a;
-list-style: disc;
-}
-.soft-list{
-    padding-left: 25px;
-}
-
-.mein-content-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 8px;
+    text-decoration: none;
+    color: #2979FF;
 }
